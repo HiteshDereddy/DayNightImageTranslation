@@ -72,7 +72,7 @@ This project includes a Jupyter Notebook for detailed experimentation and analys
 
 | Input (Day) | Output (Night) |
 |-------------|----------------|
-| ![Day](images/input_day.jpg) | ![Night](results/output_night.jpg) |
+| ![Day](images/input_day.png) | ![Night](results/output_night.png) |
 
 ---
 
