@@ -1,0 +1,11 @@
+glob
+matplotlib.pyplot
+numpy
+opencv-python
+scipy.linalg
+tensorflow
+tensorflow.keras.applications.inception_v3
+tensorflow.keras.layers
+tensorflow.keras.losses
+tensorflow.keras.models
+tensorflow.keras.optimizers
