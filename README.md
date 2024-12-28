@@ -61,7 +61,7 @@ The entire dataset was used for training and testing without excluding any major
 ## Notebooks
 
 This project includes a Jupyter Notebook for detailed experimentation and analysis:
-- **[DayNightTranslation.ipynb](notebooks/DayNightTranslation.ipynb)**: Contains the full implementation of the CycleGAN model, including training and testing workflows. To run the notebook:
+- **[DayNightTranslation.ipynb](Notebook/DayNightTranslation.ipynb)**: Contains the full implementation of the CycleGAN model, including training and testing workflows. To run the notebook:
   ```bash
   jupyter notebook notebooks/DayNightTranslation.ipynb
   ```
