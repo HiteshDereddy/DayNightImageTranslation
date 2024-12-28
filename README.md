@@ -15,9 +15,6 @@ This repository implements a CycleGAN-based approach for converting daytime imag
 ## Project Structure
 ```
 DayNightImageTranslation/
-├── data/                # Dataset (day and night images)
-├── models/              # Model architectures and weights
-├── scripts/             # Training, evaluation, and utility scripts
 ├── notebooks/           # Jupyter notebooks
 ├── results/             # Output images and logs
 ├── README.md            # Project documentation
@@ -30,9 +27,9 @@ DayNightImageTranslation/
 
 The project uses the [DayNight Dataset](https://www.kaggle.com/datasets/stevemark/daynight-dataset), which contains:
 - **17 categories** of images captured at various intervals during the day and night.
-- **1722 total images**, with equal distribution for training:
-  - **736 daytime images**
-  - **736 nighttime images**
+- **1722 total images**, with equal distribution for training and testing.
+
+The entire dataset was used for training and testing without excluding any major portion.
 
 ### Data Preprocessing
 1. **Data Cleaning**: Removed noisy and unwanted images.
@@ -58,9 +55,6 @@ The project uses the [DayNight Dataset](https://www.kaggle.com/datasets/stevemar
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Prepare your dataset:
-   Organize your images into `data/day` and `data/night` directories.
 
 ---
 
