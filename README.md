@@ -18,6 +18,7 @@ DayNightImageTranslation/
 ├── data/                # Dataset (day and night images)
 ├── models/              # Model architectures and weights
 ├── scripts/             # Training, evaluation, and utility scripts
+├── notebooks/           # Jupyter notebooks
 ├── results/             # Output images and logs
 ├── README.md            # Project documentation
 └── requirements.txt     # Python dependencies
@@ -87,6 +88,16 @@ The project uses the [DayNight Dataset](https://www.kaggle.com/datasets/stevemar
 
 2. **View results**:
    Check the `results/` directory for translated images.
+
+---
+
+## Notebooks
+
+This project includes a Jupyter Notebook for detailed experimentation and analysis:
+- **[DayNightTranslation.ipynb](notebooks/DayNightTranslation.ipynb)**: Contains the full implementation of the CycleGAN model, including training and testing workflows. To run the notebook:
+  ```bash
+  jupyter notebook notebooks/DayNightTranslation.ipynb
+  ```
 
 ---
 
