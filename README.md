@@ -58,33 +58,6 @@ The entire dataset was used for training and testing without excluding any major
 
 ---
 
-## Training
-
-1. **Train the CycleGAN model**:
-   ```bash
-   python scripts/train.py --dataset_path ./data --epochs 100
-   ```
-
-2. **Monitor training**:
-   Use TensorBoard to visualize training progress:
-   ```bash
-   tensorboard --logdir=results/logs
-   ```
-
----
-
-## Evaluation
-
-1. **Generate translations**:
-   ```bash
-   python scripts/test.py --input ./data/day/test --output ./results/night
-   ```
-
-2. **View results**:
-   Check the `results/` directory for translated images.
-
----
-
 ## Notebooks
 
 This project includes a Jupyter Notebook for detailed experimentation and analysis:
@@ -99,7 +72,7 @@ This project includes a Jupyter Notebook for detailed experimentation and analys
 
 | Input (Day) | Output (Night) |
 |-------------|----------------|
-| ![Day](results/sample_day.jpg) | ![Night](results/sample_night.jpg) |
+| ![Day](images/input_day.jpg) | ![Night](results/output_night.jpg) |
 
 ---
 
