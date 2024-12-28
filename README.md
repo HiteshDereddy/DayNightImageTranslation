@@ -25,6 +25,21 @@ DayNightImageTranslation/
 
 ---
 
+## Dataset
+
+The project uses the [DayNight Dataset](https://www.kaggle.com/datasets/stevemark/daynight-dataset), which contains:
+- **17 categories** of images captured at various intervals during the day and night.
+- **1722 total images**, with equal distribution for training:
+  - **736 daytime images**
+  - **736 nighttime images**
+
+### Data Preprocessing
+1. **Data Cleaning**: Removed noisy and unwanted images.
+2. **Dataset Organization**: Organized into `day` and `night` folders.
+3. **Equalization**: Balanced the number of images in each category.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -83,15 +98,17 @@ DayNightImageTranslation/
 
 ---
 
+## Metrics
+
+The following metrics were used to evaluate the model:
+- **Structural Similarity Index Measure (SSIM)**: Measures structural resemblance between images.
+- **Peak Signal-to-Noise Ratio (PSNR)**: Evaluates the ratio between the maximum signal and noise.
+
+Higher SSIM and PSNR values indicate better image quality and resemblance.
+
+---
+
 ## Acknowledgments
-This project leverages the [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) framework for unpaired image-to-image translation.
+This project leverages the [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) framework for unpaired image-to-image translation. Special thanks to the contributors of the [DayNight Dataset](https://www.kaggle.com/datasets/stevemark/daynight-dataset).
 
 ---
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-## Contact
-For questions or feedback, contact [your-email@example.com].
